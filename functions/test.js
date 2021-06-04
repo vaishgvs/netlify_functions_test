@@ -29,6 +29,6 @@ exports.handler = async (event, context) => {
   
   return {
     statusCode: 200,
-    body: 'Sum is: ${toString(sum)}',
+    body: 'Sum is: ${sum}',
   };
 };
