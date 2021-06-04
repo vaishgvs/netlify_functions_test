@@ -13,3 +13,8 @@ exports.handler = async (event, context) => {
     body: `Hello, ${name}`,
   };
 };
+// in the above function when I go to ...netlify.app/.netlify/functions/test?name=abc, it displays Hello, abc
+// else if I just go to ...netlify.app/.netlify/functions/test it displays Hello, World
+// so here name is the request parameter of the GET request
+
+
