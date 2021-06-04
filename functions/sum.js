@@ -8,6 +8,6 @@ exports.handler = async (event, context) => {
   const sum2 = toString(sum);
   return {
     statusCode: 200,
-    body: `Sum is:`,
+    body: `Sum is: $(sum2)`,
   };
 };
