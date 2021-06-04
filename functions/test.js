@@ -5,7 +5,7 @@
   })
 }*/
 
-/*
+
 exports.handler = async (event, context) => {
   const name = event.queryStringParameters.name || "World";
 
@@ -17,8 +17,10 @@ exports.handler = async (event, context) => {
 // in the above function when I go to ...netlify.app/.netlify/functions/test?name=abc, it displays Hello, abc
 // else if I just go to ...netlify.app/.netlify/functions/test it displays Hello, World
 // so here name is the request parameter of the GET request
-*/
 
+
+
+/*
 //sum function 
 
 exports.handler = async (event, context) => {
@@ -32,3 +34,4 @@ exports.handler = async (event, context) => {
     body: `Sum is:`,
   };
 };
+*/
